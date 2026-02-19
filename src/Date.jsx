@@ -12,6 +12,11 @@ import img3 from './assets/img3.avif'
 import img4 from './assets/img4.avif'
 import img5 from './assets/img5.avif'
 import turnero from './assets/turnero-video.webp'
+import catalogo from './assets/catalogo-web.webp'
+import mantenimiento from './assets/pagina-mantenimiento.webp'
+import portfolioDB from './assets/portfolio.webp'
+import invitacionNYM from './assets/invitacion-digital.webp'
+import pyroWeb from './assets/pagina-pyroweb.webp'
 import proceso from './assets/isotipo negro png sin fondo-02.png'
 
  export const brandingAssets = [
@@ -105,7 +110,7 @@ Funcionalidades:
       ideal para pequeños comercios, restaurantes, emprendimientos, etc
 
       `,
-    media: proceso,
+    media: catalogo,
     type: 'image',
   },
   {
@@ -114,7 +119,33 @@ Funcionalidades:
     description:
       `Sitio web para cliente que realiza mantenimiento general en edificios y aeropuertos. 
       Con diseño minimalista a solicitud del cliente`,
-    media: proceso,
+    media: mantenimiento,
+    type: 'image',
+  },
+  
+  {
+    id: '4',
+    title: 'Portfolio Diego Balbuena',
+    description:
+      `Sitio web para musico donde cargamos su contenido y redacta su biografia, con integración a redes sociales y formulario de contacto`,
+    media: portfolioDB,
+    type: 'image',
+  },
+  
+  {
+    id: '5',
+    title: 'Invitación digital',
+    description:
+      `Invitación digital para evento, en este caso casamiento, integrado formulario para confirmación de asistencia de los invitados`,
+    media: invitacionNYM,
+    type: 'image',
+  },
+  {
+    id: '6',
+    title: 'Sitio PyroWeb',
+    description:
+      `Sitio en el cual se esta posicionando actualmente`,
+    media: pyroWeb,
     type: 'image',
   },
 ];

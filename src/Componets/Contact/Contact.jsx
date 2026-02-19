@@ -9,7 +9,7 @@ function Contact() {
       <p className="contact-subtitle">
         Estamos aquí para ayudarte a dar el siguiente paso. Completa el formulario y un miembro de nuestro equipo se pondrá en contacto contigo pronto.
       </p>
-      <form className="contact-form" action="https://formsubmit.co/pyroweb.bs.as@gmail.com" method="POST">
+      <form className="contact-form" action="https://formsubmit.co/66bbafaab5156de463c505c82ca239fa" method="POST">
         <input type="text" name="nombre" placeholder="Nombre" required />
         <input type="email" name="email" placeholder="Email" required />
         <textarea name="mensaje" placeholder="Tu mensaje" required></textarea>
